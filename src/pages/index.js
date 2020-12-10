@@ -15,7 +15,7 @@ function IndexPage() {
       <section className="text-center pt-16">
         <img
           alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
+          className="block w-1/3 mx-auto mb-8"
           src={hero}
         />
 

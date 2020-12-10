@@ -15,7 +15,7 @@ function Header() {
 
   return (
     <header className="bg-red">
-      <div className="flex flex-wrap items-center justify-between max-w-6xl p-4 md:px-8 md:p-4">
+      <div className="flex flex-wrap items-center justify-between max-w-7xl p-4 md:px-8 md:p-4">
         <Link to="/">
           <h1 className="flex items-center no-underline">
             <span className="font-display text-white text-md font-semibold tracking-widest md:text-lg lg:text-xl">

@@ -12,12 +12,12 @@ function Layout({ children }) {
         {children}
       </main>
 
-      <footer className="bg-green">
+      <footer className="bg-white">
         <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm">
           <p className="font-display tracking-widest text-gray opacity-75">
             Created by{` `}
             <a
-              className="font-bold no-underline opacity-75"
+              className="font-bold no-underline opacity-75 text-sm"
               href="https://github.com/Munime"
               target="_blank"
               rel="noopener noreferrer"

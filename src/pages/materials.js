@@ -20,10 +20,9 @@ function MaterialsPage() {
         <h2 className="font-display font-semibold tracking-widest text-center text-xl text-gray pt-4 md:text-2xl">
           Що потрібно мати на заняття
         </h2>
-        <div className="bg-green w-full mt-4">
+        <div className="bg-green w-full mt-6">
           <ul className="font-display text-gray px-4 tracking-widest uppercase text-center">
-            <li className="py-4">Смартфон</li>
-            <li className="py-4">Планшет</li>
+            <li className="py-4">Смартфон або Планшет</li>
             <li className="py-4">Штатив </li>
           </ul>
         </div>
