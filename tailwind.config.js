@@ -3,16 +3,18 @@ module.exports = {
   purge: ["./src/**/*.js"],
   darkMode: false,
   theme: {
-    colors: {
-      red: "#FF9C9C",
-      green: "#C5FF98",
-      blue: "#A5EFFF",
-      yellow: "#FFE485",
-      gray: "#273238",
-      white: "#FFFFFF",
-    },
-    fontFamily: {
-      display: ["IBM Plex Mono", "monospace"],
+    extend: {
+      colors: {
+        red: "#FF9C9C",
+        green: "#C5FF98",
+        blue: "#A5EFFF",
+        yellow: "#FFE485",
+        gray: "#273238",
+        white: "#FFFFFF",
+      },
+      fontFamily: {
+        display: ["IBM Plex Mono", "monospace"],
+      },
     },
   },
   variants: {},

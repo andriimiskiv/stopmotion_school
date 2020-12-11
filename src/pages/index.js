@@ -19,11 +19,11 @@ function IndexPage() {
           src={hero}
         />
 
-        <h2 className="font-display text-gray inline-block p-3 mb-4 text-2xl font-bold bg-yellow-400">
+        <h2 className="font-display font-semibold text-2xl  text-gray inline-block p-3 mb-4 ">
           Привіт! Я твій онлайн помічник
         </h2>
 
-        <p className="font-display font-regular leading-loose">
+        <p className="font-display font-regular leading-loose tracking-wide">
           Тут ти зможеш бачити історію наших{" "}
           <Link
             to="/schedule"

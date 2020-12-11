@@ -18,7 +18,7 @@ function Header() {
       <div className="flex flex-wrap items-center justify-between max-w-7xl p-4 md:px-8 md:p-4">
         <Link to="/">
           <h1 className="flex items-center no-underline">
-            <span className="font-display text-white text-md font-semibold tracking-widest md:text-lg lg:text-xl">
+            <span className="font-display text-white text-lg font-semibold tracking-widest md:text-lg lg:text-xl">
               {site.siteMetadata.title}
             </span>
           </h1>
@@ -63,7 +63,7 @@ function Header() {
           ].map((link) => (
             <div
               key={link.title}
-              className="font-display text-gray block ext-white no-underline py-2 hover:text-yellow md:inline-block md:mt-0 md:ml-6 md:py-0"
+              className="font-display font-regular text-gray block ext-white no-underline py-2 hover:text-yellow md:inline-block md:mt-0 md:ml-6 md:py-0"
             >
               <Link className="" key={link.title} to={link.route}>
                 {link.title}
