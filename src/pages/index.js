@@ -26,7 +26,7 @@ function IndexPage() {
         <p className="font-display font-regular leading-loose tracking-wide">
           Тут ти зможеш бачити історію наших{" "}
           <Link
-            to="/schedule"
+            to="/lessons"
             className="font-display font-bold tracking-widest text-red no-underline uppercase"
           >
             Занять
