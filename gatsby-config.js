@@ -13,6 +13,13 @@ module.exports = {
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: "pages",
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-tailwind`,
@@ -36,6 +43,7 @@ module.exports = {
         ],
       },
     },
+    { resolve: `gatsby-transformer-remark` },
     `gatsby-plugin-offline`,
   ],
 };

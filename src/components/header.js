@@ -60,6 +60,10 @@ function Header() {
               route: `/groups`,
               title: `Групи`,
             },
+            {
+              route: `/blog`,
+              title: `Блог`,
+            },
           ].map((link) => (
             <div
               key={link.title}

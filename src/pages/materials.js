@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 
 import Layout from "../components/layout";
@@ -13,17 +14,23 @@ function MaterialsPage() {
 
       <section className="flex flex-col items-center ">
         <img
-          alt="Cat and human sitting on a couch"
+          alt="Smartphone in hands"
           className="block w-1/4 mx-auto mb-4"
           src={mobile}
         />
         <h2 className="font-display font-semibold tracking-widest text-center text-xl text-gray pt-4 md:text-2xl">
-          Що потрібно мати на заняття
+          Що потрібно мати для заняття
         </h2>
         <div className="bg-green w-full mt-6">
           <ul className="font-display text-gray px-4 tracking-widest uppercase text-center">
             <li className="py-4">Смартфон або Планшет</li>
-            <li className="py-4">Штатив </li>
+            <li className="py-4">Штатив</li>
+            <li className="py-4">
+              Аплікейшн{" "}
+              <Link to="/application">
+                <p className="text-red hover:underline">StopMotion Studio</p>
+              </Link>
+            </li>
           </ul>
         </div>
 
